@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StarRush | Reaction Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-container">
+
+        <!-- Header -->
+        <header class="header">
+            <div>
+                <h1>⭐ StarRush</h1>
+                <p>Test your reaction speed!</p>
+            </div>
+
+            <button id="startBtn">Start Game</button>
+        </header>
+
+        <!-- Score Board -->
+        <section class="scoreboard">
+
+            <div class="stat">
+                <span>Score</span>
+                <strong id="score">0</strong>
+            </div>
+
+            <div class="stat">
+                <span>Time</span>
+                <strong id="time">10</strong>
+            </div>
+
+            <div class="stat">
+                <span>Best</span>
+                <strong id="bestScore">0</strong>
+            </div>
+
+            <div class="stat">
+                <span>Combo</span>
+                <strong id="combo">0x</strong>
+            </div>
+
+        </section>
+
+        <!-- Game Area -->
+        <main id="gameArea">
+
+            <div id="message">
+                <h2>Ready?</h2>
+                <p>Click Start Game to begin</p>
+            </div>
+
+            <button id="star" aria-label="Click the star">
+                ⭐
+            </button>
+
+        </main>
+
+        <!-- Game Over -->
+        <div id="gameOver" class="game-over hidden">
+
+            <div class="result-card">
+
+                <div class="result-icon">🏆</div>
+
+                <h2>Time's Up!</h2>
+
+                <p>Your final score</p>
+
+                <div id="finalScore">0</div>
+
+                <p id="resultMessage"></p>
+
+                <button id="restartBtn">
+                    Play Again
+                </button>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <p>StarRush • Built with HTML, CSS & JavaScript</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
