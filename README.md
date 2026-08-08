@@ -6,7 +6,7 @@ Test your reaction speed by clicking the moving star as many times as possible b
 
 ## 🎮 Live Demo
 
-🔗 Coming soon
+🔗 star-rush-x8ch-32zfu3b4y-geetabirle-1357s-projects.vercel.app
 
 ## ✨ Features
 
